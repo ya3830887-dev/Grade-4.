@@ -1,0 +1,180 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Unit 1 Challenge</title>
+<style>
+:root{--bg:#0f1524;--card:#17203a;--tx:#f1f3ff;--pr:#658ae8;--ok:#2fa56b;--no:#e5484d;--mu:#9aa3c7;--gold:#e8b93e;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;max-width:560px;margin:auto;padding:16px}
+h1{font-size:22px;text-align:center;margin:8px 0}p.s{text-align:center;color:var(--mu);margin:0 0 16px}
+.card{background:var(--card);border-radius:16px;padding:16px;margin:12px 0;box-shadow:0 2px 8px #0001}
+button{font:inherit;cursor:pointer;border:0;border-radius:12px;padding:12px;background:var(--pr);color:#fff;width:100%;margin:6px 0}
+button.o{background:var(--card);color:var(--tx);border:2px solid #aab3d9;text-align:left;direction:ltr}
+button.ok{background:var(--ok);color:#fff;border-color:var(--ok)}button.no{background:var(--no);color:#fff;border-color:var(--no)}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:10px}.g button{margin:0;padding:16px 8px}
+.q{font-size:20px;direction:ltr;text-align:left;margin:10px 0;line-height:1.5}
+.bar{height:8px;background:#aab3d955;border-radius:8px;overflow:hidden}.bar i{display:block;height:100%;background:var(--pr)}
+.top{display:flex;justify-content:space-between;color:var(--mu);font-size:14px;margin-bottom:6px}
+input{font:inherit;width:100%;padding:12px;border-radius:12px;border:2px solid #aab3d9;direction:ltr;background:var(--card);color:var(--tx)}
+.fb{margin-top:8px;font-weight:600}.big{font-size:44px;text-align:center}.link{background:none;color:var(--mu);font-size:14px}
+.hd{background:var(--pr);color:#fff;font-weight:700;font-size:20px;padding:16px;margin:-16px -16px 16px;direction:ltr}
+.gold{border:3px solid var(--gold);text-align:center}.ayah{color:var(--pr);font-size:20px;line-height:2}.ph{color:#4caf6d;font-size:30px;font-weight:800;letter-spacing:1px}
+.wa{display:block;text-align:center;text-decoration:none;background:#62cf72;color:#fff;border-radius:12px;padding:14px;margin:12px 0;font-weight:700}
+.sc{font-size:64px;font-weight:800;color:var(--gold)}input.nm{text-align:center}
+</style></head><body><div class="hd">Unit 1 Challenge - Grade 4</div><div id="app"></div>
+<script>
+const MC=`I can see with my ___.#ears/hands/tongue/eyes#3
+I can ___ the lemon with my tongue.#hear/taste/see/smell#1
+When we hear birds singing, we use our sense of ___.#smell/sight/hearing/touch#2
+Our senses help us stay ___, such as by smelling smoke from a fire.#colorful/sad/safe/bad#2
+The ___ are flying over there. Can you see them?#butterflies/dogs/cats/snakes#0
+Hearing is one of our five ___.#children/senses/students/birds#1
+I can smell smoke. I think there's a ___.#fire/flower/farm/butterfly#0
+Can you ___ the ball with your hands?#taste/hear/see/touch#3
+She ___ her teeth every day.#brushes/takes/grows/drinks#0
+Fruits and vegetables give us important ___.#classes/sports/vitamins/sweets#2
+Getting enough sleep helps your mind stay ___.#colorful/simple/sharp/angry#2
+I follow good ___ to be healthy and strong.#hours/habits/fruits/gardens#1
+I'm very ___. I want to eat now.#clever/thirsty/fast/hungry#3
+When someone is ___, they always want more than what is needed.#greedy/happy/friendly/healthy#0
+The children ___ their toys with their friends.#laugh/share/sit/pay#1
+___ is a light, ringing sound.#Jingling/Walking/Stopping/Shaking#0
+He has a restaurant. He is the ___ of the restaurant.#student/owner/child/teacher#1
+I need some ___ to pay for the soup.#coins/windows/pockets/senses#0
+The food looks ___ and smells wonderful!#greedy/sharp/hungry/yummy#3
+Having breakfast and playing sports are part of my daily ___.#routine/family/food/homework#0
+To "get ___" means to wear your clothes.#washed/brushed/dressed/played#2
+I go to school, where I ___ and play with my friends.#sleep/study/close/get#1
+I usually have a ___ during break time.#mind/snack/face/family#1
+Sleeping early keeps us ___.#angry/healthy/tired/sad#1
+I follow good ___ every day.#sweets/exercises/breakfast/habits#3
+Sarah ___ her homework first.#does/has/drinks/grows#0
+Eating lots of vegetables and fruits gives us ___.#energy/sleep/toys/habit#0
+The boys ___ sports in the park every Friday.#plays/play/played/playing#1
+Getting enough sleep helps your mind stay ___.#amazing/early/sharp/unhealthy#2
+They ___ the books in the morning.#to read/read/reading/reads#1
+Ali ___ the bus to the park every Friday.#took/takes/taking/take#1
+Every day, I ___ my teeth before I go to bed.#brushes/brush/brushing/brushed#1
+My dad ___ at the hospital.#works/working/work/to work#0
+I ___ some flowers in my garden.#plant/eat/drink/volunteer#0
+Can you ___ the ducks, please?#volunteer/plant/feed/play#2
+At the community ___, people volunteer to plant trees.#street/park/room/bank#1
+When you ___, you do something without getting money.#collect/need/feed/volunteer#3
+We volunteer to clean ___ from the beach.#people/trash/clothes/neighbors#1
+Mona and Hani are my ___. They live next to me.#neighbors/trees/things/streets#0
+I ___ the bottles and put them in a basket.#collect/plant/help/feed#0
+Helping each other makes our community ___.#bad/unhealthy/ugly/great#3
+People have to put trash in ___.#grounds/bins/pens/streets#1
+They discussed the problem to ___ it.#put/move/solve/take#2
+We need to find ___ to traffic and trash problems.#problems/solutions/streets/buses#1
+When cars don't move quickly, it's a ___ problem.#traffic/trash/bin/school#0
+The Delta and Upper Egypt are two special ___.#regions/streets/buildings/rivers#0
+They make pottery and ___ carpets.#sing/grow/weave/wear#2
+Egyptians are ___ of their culture.#stylish/colorful/bright/proud#3
+I will wear this ___ tomorrow.#pottery/outfit/factory/event#1
+Many people like to ___ at the community park.#plant/volunteer/collect/give#1
+Soad is a kind girl, she likes to ___ animals.#write/feed/plant/give#1
+Mariam ___ flowers in the park.#plants/helps/volunteers/feeds#0
+It is important to help our ___.#neighbors/school/toys/clothes#0
+I ___ clothes and give them to people who need them.#plant/sleep/collect/help#2
+A: I like English. B: ___ about you?#Why/When/What/Who#2
+I like my cat and ___ it every day.#feed/eat/drink/follow#0
+We will go to the ___ to help the environment.#school/house/neighbors/community park#3
+We can put ___ everywhere, so people can use them to throw rubbish.#cars/buses/traffic/bins#3
+The bus helps us reduce ___.#schools/traffic/ground/bins#1
+You shouldn't throw trash on the ___.#traffic/moon/ground/sky#2
+Does he ___ the bus to school?#feed/take/make/solve#1
+She ___ go to school on foot.#don't/isn't/doesn't/hasn't#2
+Ali doesn't ___ the bus to school every day.#took/take/takes/to take#1
+___ Amira like ice cream?#Does/Is/Do/Are#0
+Do you ___ to school on Friday? No, I don't.#goes/going/went/go#3
+___ you like sweets?#Are/Do/Is/Does#1`.split("\n").map(l=>{let[q,o,a]=l.split("#");return{q,o:o.split("/"),a:+a}});
+const GR=`She ___ (eat) fresh vegetables every day.#eats
+The students always ___ (goes) to school early.#go
+I ___ (takes) a shower in the evening.#take
+Amira ___ (sleep) for 9 hours every night.#sleeps
+She ___ (study) English every day.#studies
+The ___ (teacher) help us read stories in the classes.#teachers
+The girls ___ (watches) TV at 6:00 p.m.#watch
+Wael ___ (have) a pet cat at home.#has
+They ___ (going) to school every day.#go
+He ___ (go) to school on foot every day.#goes
+She ___ (take) vitamins every morning.#takes
+Sama ___ (read) a book every night.#reads
+My grandfather ___ (drink) coffee in the morning.#drinks
+We ___ (washes) our hands before eating.#wash
+Salma and I ___ (takes) the school bus every morning.#take
+He ___ (read) stories in English class.#reads
+She ___ (clean) her room every Friday.#cleans
+My brother and I ___ (watches) TV in the evening.#watch
+Nora ___ (wash) her car every day.#washes
+We ___ (goes) to the club on Friday.#go
+He ___ (get) up at 6 a.m. every day.#gets
+I ___ (reading) short stories before going to bed.#read
+He ___ (are) a good boy.#is
+He ___ (read) books in the morning.#reads
+The nurse ___ (help) sick people.#helps
+She ___ (do) her homework in the afternoon.#does
+He ___ (wake) up at 6:30 a.m.#wakes
+They ___ (eating) healthy breakfast every day.#eat
+Vegetables ___ (gave) us vitamins. They're healthy.#give
+She ___ (sleep) for 9 hours every night.#sleeps
+Hatem ___ (watch) TV in the evening.#watches
+I ___ (taking) a shower every day.#take
+Mariam ___ (are) my best friend.#is
+My parents ___ (doesn't) watch TV at night.#don't
+She ___ (don't) throw trash on the ground.#doesn't
+___ (Does) cars move quickly in the morning?#Do
+Does Nour ___ (liked) math?#like
+They don't ___ (uses) phones in their classrooms.#use
+___ (Do) she play tennis every day?#Does
+How does Mona ___ (helps) the community?#help
+The baby doesn't ___ (sleeping) early.#sleep
+Sara ___ (likes) orange juice, but she likes apple juice.#doesn't like
+He works at ___ (regular) times. He doesn't go to work at the same time every day.#irregular
+The rabbit ___ (appeared) into the hat. We couldn't see it.#disappeared
+Throwing trash in the river is ___ (legal).#illegal
+___ (Do) Sally like ice-cream?#Does
+We ___ (studies) English every day.#study
+___ (Do) Adam go to school on foot?#Does
+Ali ___ (not / eat) unhealthy food.#doesn't eat
+The farmers ___ (not / feed) the animals.#don't feed
+I ___ (doesn't) like pizza.#don't
+___ (Does) you travel every summer?#Do
+Does your mum ___ (goes) to work by bus?#go
+They don't ___ (likes) loud noise.#like
+No, she doesn't ___ (has) any books.#have
+We don't ___ (puts) trash in bins.#put
+Do you ___ (studies) Arabic every day?#study
+___ (Do) Ramy study English every day?#Does
+Ali ___ (write) his homework in the evening.#writes
+She ___ (don't) like pollution.#doesn't
+They ___ (doesn't) use trash bins.#don't
+___ (Do) he take the bus to school?#Does
+___ (Does) cars move quickly in the morning?#Do
+We ___ (doesn't) need to use cars every day.#don't
+___ (Do) she throw trash on the ground?#Does
+___ (Do) your street have this problem?#Does`.split("\n").map(l=>{let[q,a]=l.split("#");return{q,a}});
+const norm=s=>s.toLowerCase().replace(/[’‘`]/g,"'").replace(/does not/g,"doesn't").replace(/do not/g,"don't").replace(/\s+/g," ").trim();
+const $=document.getElementById("app");let S={};
+let NAME="";
+function welcome(){$.innerHTML=`<div class="card gold"><div class="ayah">﴿ إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا ﴾</div><h2>طلاب مستر يوسف الوكيل</h2><div class="ph">01098102012</div></div><p class="s" style="font-size:18px;color:var(--tx)">Welcome! Write your name to start:</p><input id="nm" class="nm" placeholder="Your name" autocomplete="off"><div style="text-align:center"><button style="width:auto;padding:12px 36px;margin-top:14px" onclick="go()">Start</button></div>`}
+function go(){let v=document.getElementById("nm").value.trim();if(!v){document.getElementById("nm").style.borderColor="var(--no)";return}NAME=v;home()}
+function home(){if(!NAME)return welcome();$.innerHTML=`<h1>🎮 Unit 1 Challenge</h1><p class="s">اختار نوع التحدي</p>
+<div class="card"><h3>🔤 اختر الكلمة الصحيحة</h3><p class="s">Choose the correct answer</p>${grid("mc",MC.length)}</div>
+<div class="card"><h3>✏️ تصحيح الجرامر</h3><p class="s">Correct the form of the word</p>${grid("gr",GR.length)}</div>`}
+function grid(t,n){let h='<div class="g">';for(let i=0;i<Math.ceil(n/20);i++){let a=i*20+1,b=Math.min(n,a+19);h+=`<button onclick="start('${t}',${i})">تحدي ${i+1}<br><small>${a}–${b}</small></button>`}return h+"</div>"}
+function start(t,i){let d=t=="mc"?MC:GR;S={t,i,qs:d.slice(i*20,i*20+20),n:0,sc:0,done:false};show()}
+function show(){let q=S.qs[S.n],p=S.n/S.qs.length*100;
+let h=`<div class="top"><span>سؤال ${S.n+1}/${S.qs.length}</span><span>⭐ ${S.sc}</span></div><div class="bar"><i style="width:${p}%"></i></div><div class="card"><div class="q">${q.q.replace("___","<b>_____</b>")}</div>`;
+if(S.t=="mc")h+=q.o.map((o,i)=>`<button class="o" onclick="pick(${i})">${"abcd"[i]}. ${o}</button>`).join("");
+else h+=`<input id="in" autocomplete="off" autocapitalize="off" placeholder="Type your answer"><button onclick="chk()">تأكيد ✔</button>`;
+$.innerHTML=h+`<div id="fb" class="fb"></div></div>`;
+let e=document.getElementById("in");if(e)e.onkeydown=k=>{if(k.key=="Enter")chk()}}
+function fin(ok,ans){if(S.done)return;S.done=true;if(ok)S.sc++;
+document.getElementById("fb").innerHTML=(ok?'<span style="color:var(--ok)">✅ صح! Well done</span>':`<span style="color:var(--no)">❌ غلط — الإجابة: <b dir="ltr">${ans}</b></span>`)+'<button onclick="nxt()">التالي ➡</button>'}
+function pick(i){if(S.done)return;let q=S.qs[S.n];document.querySelectorAll(".o").forEach((b,j)=>{if(j==q.a)b.classList.add("ok");else if(j==i)b.classList.add("no")});fin(i==q.a,q.o[q.a])}
+function chk(){if(S.done)return;let q=S.qs[S.n],v=document.getElementById("in");let ok=norm(v.value)==norm(q.a);v.style.borderColor=ok?"var(--ok)":"var(--no)";v.disabled=true;fin(ok,q.a)}
+function nxt(){S.done=false;S.n++;if(S.n<S.qs.length)show();else end()}
+function end(){let pc=Math.round(S.sc/S.qs.length*100),tp=(S.t=="mc"?"Choose the correct answer":"Grammar Correction")+" - Challenge "+(S.i+1);
+let msg=pc>=90?"Excellent! 🏆":pc>=60?"Very good! 👏":"Keep trying, you can do it! 📚";
+let wa="https://wa.me/201098102012?text="+encodeURIComponent(`Unit 1 Challenge - Grade 4\nName: ${NAME}\nTopic: ${tp}\nScore: ${S.sc}/${S.qs.length} (${pc}%)`);
+$.innerHTML=`<div class="card gold"><div class="sc">${S.sc}/${S.qs.length}</div><h3>${pc}% — ${msg}</h3><p class="s">${NAME}<br>${tp}</p></div><a class="wa" href="${wa}" target="_blank" rel="noopener">📲 Share score on WhatsApp</a><button onclick="start('${S.t}',${S.i})">🔁 Try again</button><button onclick="home()">Choose another topic</button>`}
+welcome();
+</script></body></html>
